@@ -1,0 +1,372 @@
+*{
+    
+    margin:0px;
+    box-sizing: content-box;
+}
+
+body{
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+    letter-spacing: 0.30em ;
+    line-height: 1.6;
+    font-size: 14px;
+  
+
+}
+/* Menu de navegacion */
+header{
+    
+    background-color: rgb(1,51,120);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+   
+
+}
+.contenedor_boton-menu{
+    display: none;
+}
+.nav-bar{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-left: 120px;
+}
+ul{
+    display: inline-flex;
+    
+    justify-content: center;
+    margin: 0px;
+}
+.list{
+    display: flex;
+    font-size: 12px;
+    list-style-type: none;
+}
+.list:hover{
+    background-color: rgb(3, 59, 138);
+}
+.list a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    padding: 40px;
+    transition: 0.3s;
+}
+.list a:hover{
+    background-color: rgb(3, 59, 138);;
+    transition: 0.3s;
+}
+.menu{
+    display: none;
+}
+
+.logo-ford{
+    margin-left: 10%;
+    width: 200px;
+    height: 100px;
+}
+.logo-ford:hover{
+    cursor: pointer;
+}
+/* TITULOS */
+h1{
+    width: 100%;
+    color: rgba(1,51,120, 0.8) ;
+    text-align: center;
+    margin: 50px 0px;
+    border-bottom: 1px solid rgba(1,51,120, 0.8) ;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Parrafos */
+p{
+    margin: 20px 0px;
+}
+/* contenedor de cartas ford */
+.cartas-ford{
+    display: flex;
+    justify-content: center;  
+}
+.container{
+    display: flex;
+    margin-bottom: 30px;
+    justify-content: space-evenly;
+    
+    align-content: center;
+    margin: px 0px;
+    width: 100%;
+    
+}
+.carta-ford{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    border-radius: 10px;
+    transition: 0.6s;
+
+}
+.carta-ford:hover{
+    box-shadow: 0px 6px 12px rgba(56, 56, 56, 0.6);
+  
+    transform: translateY(-15px);
+    cursor: pointer;
+}
+.cartas-autos-ford{
+    width: 300px;
+    
+}
+.button-carta-ford{
+    font-size: 16px;
+    padding: 20px 111px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    transition: 0.6s;
+    cursor: pointer;
+}
+.button-carta-ford:hover{
+    transition: 0.4s;
+    background-color: rgb(3, 59, 138);
+    color: white;
+}
+/* Video raptor */
+.video-raptor{
+    width: 100%;
+    
+}
+.img-raptor{
+    margin: 20px;
+    width: 500px;
+    align-items: center;
+}
+.texto-informativo-raptor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    width: 100%; 
+}
+.texto-informativo-raptor p{
+   text-align: center;
+}
+.contenedor-ford{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    /* align-items: center; */
+
+} 
+/* Nosotros.html */
+.contenedor__texto__informativo__ford{
+    display: flex;
+    justify-content: center;
+}
+
+.texto__informativo__ford{
+    width: 90%;
+    text-align: center;
+}
+.titulo__modelo__t{
+    color: rgba(255,255,255) ;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 20px 0px;
+}
+.contenedor__modelo__t{
+    margin: 40px 0px;
+    color: white;
+    background-color: rgb(1,51,120);
+    border-radius: 5px;
+}
+/* Dudasyconsultas.html*/
+.section_formulario{
+    margin: auto;
+    border: 2px solid rgba(0, 0, 0,0.4);
+    border-radius: 7px;
+    margin-top: 1.4%;
+    width: 450px;
+    height: auto;
+}
+.formulario{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    box-shadow: 0px 4px 12px rgba(56, 56, 56, 0.5);
+    background-image: url("./Imagenes\ y\ videos/fondo_form.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.titulo_formulario{
+    color: white;
+    font-size: 25px;
+    margin: 20px 0px;
+}
+label{
+    color:white;
+    cursor: pointer;
+    
+}
+.inputs{
+    width: 400px;
+    outline: none;
+    border: none;
+    margin: 10px 0px;
+    padding: 5px;
+    border-bottom: 1px solid rgb(1,51,120);
+    border-radius: 5px;
+    justify-items: center;
+
+}
+textarea{
+     margin-bottom: 10px;
+}
+.boton_enviar{
+    padding: 13px 160px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: rgb(255,255,255);
+    border-radius: 4px;
+    transition: all 0.5s;
+
+
+}
+.boton_enviar:hover{
+    background-color: rgb(1,51,120);
+    
+    color: white;
+}
+/* Preguntas frecuentes */
+.contenedor_informacion{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+    min-height: 80%;
+
+}
+.contenedor_informacion-contacto{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 30px;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0,0.2);
+    border-radius: 7%;
+    width: 300px;
+    height: 400px;
+    gap: 20px 0px;
+    cursor: pointer;
+    transition: all 1s;
+}
+.contenedor_informacion-contacto:hover{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgba(0, 0, 0,0.1); ;
+    transform: translateY(-10px);
+    box-shadow: 0px 7px 12px rgba(56, 56, 56, 0.5)
+}
+
+.contenedor_informacion-contacto img{
+    width: 100px;
+}
+
+  /* Pie de pagina */
+footer{
+    display: flex;
+    background-color: rgb(1,51,120);
+    border-top: 1px solid white;
+    padding: 30px;
+    justify-content: center;
+    align-content: flex-end;
+   
+}
+footer a{
+    text-decoration: none;
+    margin-left: 42px;
+    font-size: 12px;
+    color: white;
+    cursor: pointer;
+}
+footer a:hover{
+    transition: 0.4s;
+    color: rgb(0, 235, 235);
+}
+
+/* Responsive mobile last */
+@media (max-width:957px) {
+   header{
+        display: flex;
+        justify-content: space-between;
+   }
+    .logo-ford{
+        margin-left: 10%;
+    }
+    .contenedor_boton-menu{
+        display: block;
+        height: 50px;
+        margin-left: -90%;
+    }
+    .contenedor_boton-menu:hover{
+        background-color: rgb(3, 59, 138);
+
+    }
+    .carta-ford{
+        margin: 30px 50px;
+    }
+   
+    .nav-bar{
+        display: none;
+        flex-wrap: wrap;
+        text-align: center;
+        margin-left: 120px;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: auto;
+        
+        justify-content: center;
+    }
+    .texto-informativo-raptor{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 100vw;
+        justify-items: center;
+        }    
+    
+}
+@media (max-width:768px){
+    .container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: auto;
+        justify-items: center;
+    }
+    .texto-informativo-raptor{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 100vw;
+        justify-items: center;
+    
+        }
+        .contenedor_informacion{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            row-gap: 40px;
+        }
+    
+}   
+@media (max-width:576px){
+    .contenedor_informacion{
+        margin: auto;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        margin: 30px 0px;
+    }
+}
+
