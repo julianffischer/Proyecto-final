@@ -7,96 +7,45 @@
 body{
     display: grid;
     min-height: 100vh;
+    min-width: 359px;
     grid-template-rows: auto 1fr auto;
     letter-spacing: 0.15em ;
     line-height: 1.6;
     font-size: 14px;
-  
+    
 
 }
 /* Menu de navegacion */
-header{
-    
+.navbar-background{
     background-color: rgb(1,51,120);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0px;
-   
-
 }
-.contenedor_boton-menu{
-    display: none;
-}
-.nav-bar{
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
-    margin-left: 120px;
-}
-ul{
-    display: inline-flex;
-    
-    justify-content: center;
-    margin: 0px;
-}
-.list{
-    display: flex;
-    font-size: 12px;
-    list-style-type: none;
-}
-.list:hover{
-    background-color: rgb(3, 59, 138);
-}
-.list a{
-    text-decoration: none;
-    color:rgb(255, 255, 255);
-    padding: 40px;
-    transition: 0.3s;
-}
-.list a:hover{
-    background-color: rgb(3, 59, 138);;
-    transition: 0.3s;
-}
-.menu{
-    display: none;
-}
-
 .logo-ford{
-    margin-left: 10%;
     width: 200px;
-    height: 100px;
 }
-.logo-ford:hover{
-    cursor: pointer;
-}
-/* TITULOS */
-h1{
-    width: 100%;
-    color: rgba(1,51,120, 0.8) ;
-    text-align: center;
-    margin: 50px 0px;
-    border-bottom: 1px solid rgba(1,51,120, 0.8) ;
-    font-size: 30px;
-    font-family: 'Courier New', Courier, monospace;
-}
-
 /* Parrafos */
 p{
     margin: 20px 0px;
 }
 /* contenedor de cartas ford */
+h1{
+    text-align: center;
+    color: rgb(1,51,120) ;
+    border-bottom: 1px solid rgb(0, 64, 155);
+   
+
+}
 .cartas-ford{
     display: flex;
     justify-content: center;  
+    margin: 40px;
+    
 }
 .container{
     display: flex;
     justify-content: space-evenly;
     align-content: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-bottom: 30px;
-    margin: px 0px;
+    margin: 0px;
     width: 100%;
     
 }
@@ -196,21 +145,25 @@ p{
     justify-items: center;
     text-align: center;
     box-shadow: 0px 4px 12px rgba(56, 56, 56, 0.5);
-    background-image: url("./Imagenes\ y\ videos/fondo_form.jpg");
+    /* background-image: url("./Imagenes\ y\ videos/fondo_form.jpg"); */
     background-repeat: no-repeat;
     background-size: cover;
 }
 .titulo_formulario{
-    color: white;
+    color: rgb(0, 0, 0);
+    text-shadow: 0px 2px 2px rgba(56, 56, 56, 0.5);
+
     font-size: 25px;
     margin: 20px 0px;
 }
 label{
-    color:white;
+    
     cursor: pointer;
     
 }
 .inputs{
+    color: black;
+    text-shadow: 0px 2px 2px rgba(56, 56, 56, 0.5);
     width: 400px;
     outline: none;
     border: none;
@@ -229,14 +182,12 @@ textarea{
     margin-bottom: 10px;
     border: none;
     background-color: rgb(255,255,255);
+    border: 1px solid rgba(0, 0, 0,0.1);
     border-radius: 4px;
     transition: all 0.5s;
-
-
 }
 .boton_enviar:hover{
     background-color: rgb(1,51,120);
-    
     color: white;
 }
 /* Preguntas frecuentes */
@@ -299,12 +250,9 @@ footer a:hover{
 
 /* Responsive mobile last */
 @media (max-width:957px) {
-   header{
-        display: flex;
-        justify-content: space-between;
-   }
+   
     .logo-ford{
-        margin-left: 10%;
+        width: 170px;
     }
     .contenedor_boton-menu{
         display: block;
@@ -359,14 +307,24 @@ footer a:hover{
             grid-template-columns: repeat(2, 1fr);
             row-gap: 40px;
         }
-    
 }   
 @media (max-width:576px){
+    .logo-ford{
+        width: 100px;
+    }
     .contenedor_informacion{
         margin: auto;
         grid-template-columns: repeat(1, 1fr);
         justify-items: center;
         margin: 30px 0px;
     }
+    .cartas-autos-ford{
+        width: 250px;
+    }
+    .img-raptor{
+        width: 250px;
+
+    }
+ 
 }
 
