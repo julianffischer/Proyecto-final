@@ -1,0 +1,49 @@
+.cartas-ford{
+    display: flex;
+    justify-content: center;  
+    margin: 40px;
+    
+}
+.cartas-autos-ford{
+    width: 300px;
+    
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 30px 0PX;
+    width: 100%;
+    
+}
+.carta-ford{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    border-radius: 10px;
+    transition: 0.6s;
+
+        &:hover{
+            box-shadow: 0px 6px 12px rgba(56, 56, 56, 0.6);  
+            transform: translateY(-15px);
+            cursor: pointer;
+        }
+
+}
+.button-carta-ford{
+    font-size: 16px;
+    padding: 20px 111px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    transition: 0.6s;
+    cursor: pointer;
+
+        &:hover{
+            transition: 0.4s;
+            background-color: rgb(3, 59, 138);
+            color: white; 
+        }
+}

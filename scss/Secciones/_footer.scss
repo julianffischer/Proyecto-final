@@ -1,0 +1,21 @@
+footer{
+    display: flex;
+    background-color: rgb(1,51,120);
+    border-top: 1px solid white;
+    padding: 50px;
+    justify-content: center;
+    align-content: flex-end;
+
+        & a{
+            text-decoration: none;
+            margin-left: 42px;
+            font-size: 16px;
+            color: white;
+            cursor: pointer; 
+            
+            &:hover{
+                transition: 0.4s;
+                color: rgb(255, 255, 255); 
+            }
+        }
+}
