@@ -2,13 +2,15 @@ footer{
     display: flex;
     background-color: rgb(1,51,120);
     border-top: 1px solid white;
-    padding: 50px;
+    padding: 30px;
     justify-content: center;
     align-content: flex-end;
 
         & a{
+            display: flex;
+            justify-content: space-around;
             text-decoration: none;
-            margin-left: 42px;
+            margin: 0px 50px;
             font-size: 16px;
             color: white;
             cursor: pointer; 
@@ -18,4 +20,7 @@ footer{
                 color: rgb(255, 255, 255); 
             }
         }
+}
+.redes__sociales{
+    width:50px
 }

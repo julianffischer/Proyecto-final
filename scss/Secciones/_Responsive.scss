@@ -70,6 +70,9 @@
     .cartas-autos-ford{
         width: 80%;
     }
+    .button-carta-ford{
+        padding: 20px 80px;
+    }
     .img-raptor{
         width: 80%;
 
@@ -82,5 +85,16 @@
     }
     .section_formulario{
         width: 90%;
+    }
+}
+@media (max-width: 393px) {
+    .button-carta-ford{
+        padding: 20px 60px;
+    }
+}
+@media (max-width: 353px) {
+    
+    .button-carta-ford{
+        padding: 20px 40px;
     }
 }
