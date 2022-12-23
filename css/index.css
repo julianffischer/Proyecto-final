@@ -6,8 +6,7 @@
 body {
   grid-template-rows: auto 1fr auto;
   letter-spacing: 0.15em;
-  line-height: 1.6;
-  font-size: 14px; }
+  line-height: 1.6; }
 
 /* Menu de navegacion */
 /* Parrafos */
@@ -30,7 +29,7 @@ h1 {
   background-color: #013378; }
 
 .logo-ford {
-  width: 200px; }
+  width: 150px; }
 
 .cartas-ford {
   display: flex;
@@ -45,7 +44,7 @@ h1 {
   justify-content: space-evenly;
   align-content: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  margin: 0px 0PX;
+  margin: 30px 0PX;
   width: 100%; }
 
 .carta-ford {
@@ -173,7 +172,7 @@ textarea {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  margin: 3.45% 0px;
+  margin: 3.8% 0px;
   min-height: 80%; }
   .contenedor_informacion-contacto {
     display: flex;
@@ -208,17 +207,13 @@ footer {
   footer a {
     display: flex;
     justify-content: space-around;
-    text-decoration: none;
-    margin: 0px 50px;
+    margin: 0px 40px;
     font-size: 16px;
     color: white;
     cursor: pointer; }
-    footer a:hover {
-      transition: 0.4s;
-      color: white; }
 
 .redes__sociales {
-  width: 50px; }
+  width: 40px; }
 
 @media (max-width: 957px) {
   .logo-ford {
@@ -282,7 +277,9 @@ footer {
   footer {
     flex-direction: column; }
   .section_formulario {
-    width: 90%; } }
+    width: 90%; }
+  footer {
+    flex-direction: row; } }
 
 @media (max-width: 393px) {
   .button-carta-ford {

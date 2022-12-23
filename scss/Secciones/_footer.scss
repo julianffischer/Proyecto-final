@@ -9,18 +9,12 @@ footer{
         & a{
             display: flex;
             justify-content: space-around;
-            text-decoration: none;
-            margin: 0px 50px;
+            margin: 0px 40px;
             font-size: 16px;
             color: white;
-            cursor: pointer; 
-            
-            &:hover{
-                transition: 0.4s;
-                color: rgb(255, 255, 255); 
-            }
+            cursor: pointer;
         }
 }
 .redes__sociales{
-    width:50px
+    width: 40px;
 }

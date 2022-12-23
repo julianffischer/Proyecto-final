@@ -86,6 +86,9 @@
     .section_formulario{
         width: 90%;
     }
+    footer{
+        flex-direction: row
+    };
 }
 @media (max-width: 393px) {
     .button-carta-ford{
@@ -97,4 +100,5 @@
     .button-carta-ford{
         padding: 20px 40px;
     }
+
 }
