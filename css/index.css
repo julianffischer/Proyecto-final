@@ -172,7 +172,7 @@ textarea {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  margin: 3.8% 0px;
+  margin: 5.01% 0px;
   min-height: 80%; }
   .contenedor_informacion-contacto {
     display: flex;
@@ -203,11 +203,11 @@ footer {
   border-top: 1px solid white;
   padding: 30px;
   justify-content: center;
-  align-content: flex-end; }
+  align-content: center; }
   footer a {
     display: flex;
     justify-content: space-around;
-    margin: 0px 40px;
+    margin: 0px 10%;
     font-size: 16px;
     color: white;
     cursor: pointer; }
@@ -287,4 +287,6 @@ footer {
 
 @media (max-width: 353px) {
   .button-carta-ford {
-    padding: 20px 40px; } }
+    padding: 20px 40px; }
+  .redes__sociales {
+    width: 20px; } }
