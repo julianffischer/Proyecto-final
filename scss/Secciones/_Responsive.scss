@@ -1,107 +1,116 @@
-@media (max-width:957px) {
-   
-    .logo-ford{
-        width: 170px;
-    }
-    .contenedor_boton-menu{
-        display: block;
-        height: 50px;
-        margin-left: -90%;
-    }
-    .contenedor_boton-menu:hover{
-        background-color: rgb(3, 59, 138);
+@media (max-width: 957px) {
+  .logo-ford {
+    width: 170px;
+  }
+  .contenedor_boton-menu {
+    display: block;
+    height: 50px;
+    margin-left: -90%;
+  }
+  .contenedor_boton-menu:hover {
+    background-color: rgb(3, 59, 138);
+  }
+  .carta-ford {
+    margin: 30px 50px;
+  }
 
-    }
-    .carta-ford{
-        margin: 30px 50px;
-    }
-   
-    .nav-bar{
-        display: none;
-        flex-wrap: wrap;
-        text-align: center;
-        margin-left: 120px;
-    }
-    .container{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        width: auto;
-        
-        justify-content: center;
-    }
-    .texto-informativo-raptor{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        width: 100vw;
-        justify-items: center;
-        }    
-    
+  .nav-bar {
+    display: none;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-left: 120px;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: auto;
+
+    justify-content: center;
+  }
+  .texto-informativo-raptor {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 100vw;
+    justify-items: center;
+  }
 }
-@media (max-width:768px){
-    .container{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        width: auto;
-        justify-items: center;
-    }
-    .texto-informativo-raptor{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        width: 100vw;
-        justify-items: center;
-    
-        }
-        .contenedor_informacion{
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            row-gap: 40px;
-        }
-}   
-@media (max-width:576px){
-    .logo-ford{
-        width: 150px;
-    }
-    .contenedor_informacion{
-        margin: auto;
-        grid-template-columns: repeat(1, 1fr);
-        justify-items: center;
-        margin: 30px 0px;
-    }
-    .cartas-autos-ford{
-        width: 80%;
-    }
-    .button-carta-ford{
-        padding: 20px 80px;
-    }
-    .img-raptor{
-        width: 80%;
+@media (max-width: 819px) {
+  footer {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .redes__sociales {
+    width: 50px;
+    height: 50px;
+  }
+  .logo-ford-footer {
+    width: 150px;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: auto;
+    justify-items: center;
+  }
+  .texto-informativo-raptor {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 100vw;
+    justify-items: center;
+  }
+  .contenedor_informacion {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 40px;
+  }
+}
+@media (max-width: 576px) {
+  .logo-ford {
+    width: 150px;
+  }
+  .contenedor_informacion {
+    margin: auto;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    margin: 30px 0px;
+  }
+  .cartas-autos-ford {
+    width: 80%;
+  }
+  .button-carta-ford {
+    padding: 20px 80px;
+  }
+  .img-raptor {
+    width: 80%;
+  }
+  .video-raptor {
+    width: 100%;
+  }
 
-    }
-    .video-raptor{
-        width: 100%;
-    }
-    footer{
-        flex-direction: column;
-    }
-    .section_formulario{
-        width: 90%;
-    }
-    footer{
-        flex-direction: row
-    };
+  .section_formulario {
+    width: 90%;
+  }
 }
 @media (max-width: 393px) {
-    .button-carta-ford{
-        padding: 20px 60px;
-    }
+  .button-carta-ford {
+    padding: 20px 60px;
+  }
+  footer {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .redes__sociales {
+    width: 50px;
+    height: 50px;
+  }
+  .logo-ford-footer {
+    width: 150px;
+  }
 }
 @media (max-width: 353px) {
-    
-    .button-carta-ford{
-        padding: 20px 40px;
-    }
-    .redes__sociales{
-        width: 20px;
-    }
-
+  .button-carta-ford {
+    padding: 20px 40px;
+  }
 }

@@ -1,0 +1,14 @@
+// Cuerpo de pagina
+body{
+    grid-template-rows: auto 1fr auto;
+    letter-spacing: 0.15em;
+    line-height: 1.6;
+  }
+  h1 {
+      text-align: center;
+      color: rgb(1, 51, 120);
+      border-bottom: 1px solid rgb(0, 64, 155);
+    }
+    p {
+      margin: 20px 0px;
+    }

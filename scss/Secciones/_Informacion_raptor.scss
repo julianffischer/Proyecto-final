@@ -1,22 +1,27 @@
+// Video raptor
 .video-raptor{
     width: 100%;
     
 }
+// Imagen raptor
 .img-raptor{
     margin: 20px;
-    width: 500px;
+    width: 400px;
     align-items: center;
 }
+// Contenedor
 .contenedor-ford{
     display: grid;
     grid-template-columns: 1fr;
     justify-items: center;
 
 }
+// Texto ford-raptor
 .texto-informativo-raptor{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0px;
     max-width: 1200px;
     width: 100%; 
 

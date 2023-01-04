@@ -1,20 +1,26 @@
-footer{
-    display: flex;
-    background-color: rgb(1,51,120);
-    border-top: 1px solid white;
-    padding: 30px;
-    justify-content: center;
-    align-content: center;
+// Pie de pagina
+footer {
+  display: flex;
+  background-color: rgb(1, 51, 120);
+  padding: 30px;
+  justify-content: center;
+  align-items: center;
 
-        & a{
-            display: flex;
-            justify-content: space-around;
-            margin: 0px 10%;
-            font-size: 16px;
-            color: white;
-            cursor: pointer;
-        }
+  & a {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 10%;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+  }
 }
-.redes__sociales{
-    width: 40px;
+// Redes sociales
+.redes__sociales {
+  width: 50px;
+  height: 50px;
+}
+// Logo
+.logo-ford-footer {
+  width: 150px;
 }
