@@ -1,0 +1,68 @@
+body {
+    background-color: #ffffff;
+}
+// Titulo de pagina de compra 
+.titulo-pagina-compras {
+
+    background: linear-gradient(rgb(1, 51, 120) 56%, rgb(255, 255, 255));
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 12px 2px rgba(0, 0, 0, 0.5);
+    border: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-stretch: condensed;
+}
+// contenedor de compra
+
+.contenedor-p-compras {
+    display: flex;
+    border: 2px solid;
+    border-radius: 10px;
+    box-shadow: 2px 2px 12px 2px rgba(68, 68, 68,0.5);
+    width: 160vh;
+    height: 65vh;
+    align-items: center;
+    justify-content: center;
+    margin: 34px auto;
+    
+
+    &-imagen-vehiculo{
+        width: 100%;
+        margin: 50px;
+    }
+    &-informacion{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        box-sizing: border-box;
+        margin: 0px 50px;
+        width: 100%;
+        height: 100%;
+        padding: 0px;
+         
+        &-titulo-Auto{
+        font-weight: bolder;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+    }
+
+    &-boton-confirmar{
+        background-color: rgb(1, 51, 120);
+        color: white;
+        border-radius: 10px;
+        width: 100%;
+        height: 80px;
+        box-shadow: 2px 2px 12px 2px rgba(68, 68, 68,0.5);
+        transition: 0.3s;
+
+
+        
+      &:hover{
+            width: 105%;
+            height: 80px;
+         }
+
+     
+    
+    }
+}
